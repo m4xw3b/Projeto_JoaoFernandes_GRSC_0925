@@ -1,5 +1,3 @@
-DNS
-
 #!/bin/bash
 #versaofinal_DNS
 serv_dns=""

@@ -23,8 +23,7 @@ Servidor DHCP (Kea)
 •	Ativar e configurar logs e métodos de validação da configuração.
 •	Fornecer instruções para testar leases em clientes Linux e Windows.
 
-Automação — scripts
+Automação — scripts  
 Serão desenvolvidos dois scripts (apenas descritos aqui, sem código):
 •	config_dns.sh — instala, configura e valida BIND; cria ficheiros de zona; ativa o serviço; configura firewall e logs; inclui passos de validação e verificação.
 •	config_kea.sh — instala e configura Kea DHCP; cria/atualiza o ficheiro de configuração em formato JSON; activa o serviço; configura firewall e logs; inclui verificação de leases e testes.
-Nesta versão do documento todos os conteúdos de implementação e exemplos de ficheiros foram removidos; os scripts serão entregues separadamente como ficheiros .sh.
